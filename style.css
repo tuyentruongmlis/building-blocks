@@ -1,0 +1,47 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color:limegreen;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+@media print{
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        display: block;
+    }
+}
+nav{
+    background-color:slateblue;
+}
+
+main{
+    background-color: darkslategray;
+}
+article{
+    background-color: hotpink;
+}
+section{
+    background-color: paleturquoise;
+}
+aside{
+    background-color: plum;
+}
+footer{
+    background-color: salmon;
+    background-image: url(http://colrd.com/misc/library/pattern/Squidfingers/73.gif);
+}
